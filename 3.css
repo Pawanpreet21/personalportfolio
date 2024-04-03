@@ -78,6 +78,7 @@ nav ul li a:hover::after{
 }
 .header-text  img{
     width: 10%;
+    align-items: right;
 }
 
 .header-text h1 span{
