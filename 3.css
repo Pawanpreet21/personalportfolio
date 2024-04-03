@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background-color: #020e1d;
+    background-color:#020e1d;
     color: #ffff;
 }
 
@@ -21,7 +21,7 @@ body{
     height: 100vh;
     background-image: url(./images/tom-morel-ktVazL5c7FM-unsplash.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
 
 .container{
@@ -29,7 +29,7 @@ body{
 }
 
 nav{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -46,25 +46,25 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #ffff;
+    color:#ffff;
     text-decoration: none;
-    font-size: 18px; 
+    font-size:18px; 
     position: relative;
 }
 
 nav ul li a::after{
     content: '';
     width: 0;
-    height: 3px;
+    height:3px;
     background: #ffe100;
     position: absolute;
-    left: 0;
-    bottom: -6px;
+    left:0;
+    bottom:-6px;
     transition: 0.5s;
 }
 
 nav ul li a:hover::after{
-    width: 100%;
+    width:100%;
 }
 
 .header-text{
@@ -81,10 +81,11 @@ nav ul li a:hover::after{
     color: #ffe100;
 }
 
-/* ---- About ---- */
+/*----About----*/
+
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #ababab ;
 }
 
 .row{
@@ -97,22 +98,11 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 
-.about-col-1 .hexagon-img-wrapper {
-    width: 150px;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+.about-col-1 img{
+    width: 100%;
+
 }
 
-.about-col-1 .hexagon-img-wrapper img {
-    width: auto;
-    height: 100%;
-    transform: translateX(-50%) translateY(-50%) scale(1.1);
-}
 
 .about-col-2{
     flex-basis: 60%;
@@ -124,9 +114,6 @@ nav ul li a:hover::after{
     color: #fff;
 }
 
-/* Remaining CSS for tabs, services, portfolio, contact, etc. remains unchanged */
-
-/* Example continuation of your CSS */
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -139,9 +126,6 @@ nav ul li a:hover::after{
     cursor: pointer;
     position: relative;
 }
-
-/* Add remaining CSS selectors and rules here */
-
 
 .tab-links::after{
     content: '';
