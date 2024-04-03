@@ -100,8 +100,18 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 15px;
+
 }
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    transform: perspective(1000px) rotateY(20deg); /* Perspective depth and initial Y-axis rotation */
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); /* Shadow for 3D effect */
+}
+
+.about-col-1:hover img {
+    transform: perspective(1000px) rotateY(0deg); /* Flatten image on hover */
 
 .about-col-2{
     flex-basis: 60%;
