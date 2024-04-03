@@ -244,10 +244,10 @@ nav ul li a:hover::after{
     bottom: 0;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: left;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 40px;
     text-align: left;
     font-size: 12px;
     transition: height 0.5s;
