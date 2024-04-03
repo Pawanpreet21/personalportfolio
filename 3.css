@@ -76,12 +76,8 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
 }
-.header-text  img{
-    width: 10%;
-    align-self: right;
-}
 
-.header-text h1 span{
+.header-text h1 {
     color: #ffe100;
 }
 
