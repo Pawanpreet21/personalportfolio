@@ -212,75 +212,73 @@ nav ul li a:hover::after{
 }
 
 /*----portfolio----*/
-#portfolio{
+#portfolio {
     padding: 50px 0;
     color: #fff;
 }
 
-.work-list{
+.work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;  
+    margin-top: 50px;
 }
 
-.work{
+.work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Ensures contents are laid out vertically */
+    align-items: center; /* Aligns children elements to the center horizontally */
+    text-align: center; /* Ensures text is centered */
 }
 
-.work img{
+.work img {
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
 }
 
-.layer{
+.layer {
     width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ffe100);
-    border-radius: 10px;
     position: absolute;
     left: 0;
     bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ffe100);
+    border-radius: 10px;
     overflow: hidden;
     display: flex;
-    align-items: centre;
-    justify-content: centre;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: centre;
-    font-size: 12px;
-    transition: height 0.5s;
+    flex-direction: column; /* Aligns content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically for aesthetics */
+    padding: 20px; /* Adds some padding inside the layer */
+    height: 100%; /* Makes it cover the entire work item */
+    opacity: 0; /* Initially hide it */
+    transition: opacity 0.5s; /* Smooth transition for hover effect */
+    text-align: center; /* Ensures text is centered */
 }
 
-.layer h3{
-    font-weight: 500;
-    margin-bottom: 20px;
+.layer h3, .layer p, .layer a {
+    margin: 10px 0; /* Adds margin to each element for spacing */
 }
 
-.layer a{
-    margin-top: 20px;
-    color: #ffe100f;
+.layer a {
+    color: #fff;
     text-decoration: none;
-    font-size: 17px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
-.work:hover img{
-    transform: scale(1.1);
+.layer a:hover {
+    color: #ffe100; /* Changes color on hover */
 }
 
-.work:hover .layer{
-    height: 100%;
+.work:hover .layer {
+    opacity: 1; /* Shows the layer on hover */
 }
+
 
 .btn{
     display: block;
