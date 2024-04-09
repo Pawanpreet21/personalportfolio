@@ -1,9 +1,17 @@
 # Output
-"C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 202134.png"
-"C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 202155.png"
-"C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 202225.png"
-"C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 202248.png"
-"C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-09 202305.png"
+![Screenshot 2024-04-09 202134](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/c206002a-590d-4a6a-913c-296ba15a79b0)
+
+
+![Screenshot 2024-04-09 202155](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/26aed642-cf3c-46c9-a55e-664ec08c5fad)
+
+![Screenshot 2024-04-09 202225](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/0dbd0cbe-5dfa-4fec-a4b0-178997703bc3)
+
+
+![Screenshot 2024-04-09 202248](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/63c2200c-d0b0-48b9-b75b-890b412282ae)
+
+
+![Screenshot 2024-04-09 202305](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/08928f0f-7cb2-4d8d-a1d0-bd40c975bd6f)
+
 
 > PERSONAL WEBSITE 
 
