@@ -247,7 +247,10 @@ body{
     opacity: 1; /* Shows the layer on hover */
 }
 
-
+.section {
+    background-color: transparent; /* Apply this only if you want no sections to have a background */
+    box-shadow: none; /* Remove shadows globally if undesired */
+}
 .btn{
     display: block;
     margin: 50px auto;
