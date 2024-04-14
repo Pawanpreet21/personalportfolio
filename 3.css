@@ -252,7 +252,16 @@ body{
     box-shadow: none; /* Remove shadows globally if undesired */
 }
 .btn{
-  
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 2px solid;
+    padding: 14px 50px;
+    border-color: #ffe100;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
 }
 
 
