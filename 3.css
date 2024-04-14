@@ -224,6 +224,10 @@ body{
     height: 100%; 
 }
 
+.work:hover .layer {
+    opacity: 1; /* Show the layer on hover */
+}
+
 .layer h3, .layer p, .layer a {
     margin: 10px 0; /* Adds margin to each element for spacing */
 }
