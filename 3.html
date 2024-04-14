@@ -260,6 +260,77 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const target = document.getElementById('animated-text');
+    const roles = ['WEB DEVELOPER', 'DATA ANALYST', 'ETHICAL HACKER']; // List of roles
+    let roleIndex = 0;
+    let letterIndex = 0;
+    let currentText = '';
+    let isDeleting = false; // To track whether we are deleting text
+
+    function animateText() {
+        if (roleIndex >= roles.length) {
+            roleIndex = 0; // Reset to start roles over again
+        }
+        let delay = 200; // Delay between letters
+
+        if (isDeleting) {
+            currentText = roles[roleIndex].substring(0, currentText.length - 1);
+        } else {
+            currentText = roles[roleIndex].substring(0, letterIndex++);
+        }
+
+        target.innerHTML = currentText;
+
+        if (!isDeleting && currentText === roles[roleIndex]) {
+            delay = 2000; // Pause at the end of typing each word
+            isDeleting = true; // Start deleting the text
+        } else if (isDeleting && currentText === '') {
+            isDeleting = false;
+            letterIndex = 0;
+            roleIndex++; // Move to the next word
+            delay = 500; // Delay before starting the next word
+        }
+
+        setTimeout(animateText, delay);
+    }
+
+    animateText();
+    });
+  </script>
+  <script>
+    function opentab(tabname) {
+    var i, tabcontents, tablinks;
+    tabcontents = document.getElementsByClassName("tab-contents");
+    for (i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active-link", "");
+    }
+
+    document.getElementById(tabname).style.display = "block";
+    event.currentTarget.className += " active-link";
+    }
+  </script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hireMeButton = document.getElementById('hire-me');
+    const moreAboutMeButton = document.getElementById('more-about-me');
+
+    hireMeButton.addEventListener('click', function() {
+        alert('Mail has been sent to Pawanpreet Singh.');
+    });
+
+    moreAboutMeButton.addEventListener('click', function() {
+        window.location.href = '#about'; // Scrolls to the About section
+    });
+    });
+  </script>
+
 
 </body>
 </html>
