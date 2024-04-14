@@ -355,36 +355,7 @@ nav .fa-solid{
         font-size: 30px;
     }
 
-    nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-
-    nav ul{
-        background: #ffe100;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left:25px;
-        cursor: pointer;
-    }
-
-    .subtitle{
+      .subtitle{
         font-size: 40px;
     }
     .about-col-1, .about-col-2{
@@ -407,7 +378,6 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-}
 
 #msg{
     color: #61b752;
