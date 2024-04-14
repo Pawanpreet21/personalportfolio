@@ -125,9 +125,6 @@ body{
     flex-basis: 60%;
 }
 
-.image img{
-    width: 50%;
-}
 .subtitle{
     font-size: 60px;
     font-weight: 600;
