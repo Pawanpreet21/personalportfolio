@@ -22,6 +22,54 @@ body{
 	margin: 0;
     padding: 0;
 }
+.sidebar {
+	width: 200px; /* Make sure this is consistent */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #262626;
+    padding: 20px 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: #262626; /* Dark background for the sidebar */
+    padding: 20px 0; /* Top and bottom padding for overall sidebar */
+    display: flex;
+    flex-direction: column; /* Makes children (nav) stack vertically */
+    justify-content: center; /* Centers children vertically in the sidebar */
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensures full width utilization within sidebar */
+}
+
+.sidebar nav ul li {
+    padding: 10px 20px; /* Padding for each link */
+    margin: 10px 0; /* Margin between links */
+    border-bottom: 1px solid #fff; /* Underline each item */
+}
+
+.sidebar nav ul li:last-child {
+    border-bottom: none; /* Remove underline from the last item */
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block; /* Makes the link fill the li for better click area */
+}
 
 #header{
     height: 100vh;
