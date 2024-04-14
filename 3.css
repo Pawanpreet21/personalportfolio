@@ -399,3 +399,151 @@ body {
     animation: animatedBackground 15s ease infinite;
     color: #fff;
 }
+.tab-contents {
+    display: none; /* Hide all tab content by default */
+}
+
+.tab-contents.active-tab {
+    display: block; /* Show the active tab */
+}
+
+.tab-links.active-link {
+    color: #ffe100; /* Highlight the active tab link */
+}
+/* Container holding the tabs */
+.tab-titles {
+    display: flex;
+    justify-content: start; /* Align tabs at the start of the container */
+    margin-bottom: 20px; /* Space between tabs and content */
+}
+
+/* Style for each tab link */
+.tab-links {
+    padding: 10px 20px;
+    cursor: pointer;
+     background-color: #fff; /* Light background for the tab */
+    color: #333; /* Darker text for contrast */
+    border: 1px solid #ccc; /* Subtle border for definition */
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    margin-right: 5px; /* Space between tabs */
+}
+
+/* Highlight for active tab */
+.tab-links.active-link {
+    background-color: #ffe100;
+    color: #020e1d;
+}
+
+/* Styles to manage visibility of tab content */
+.tab-contents {
+    display: none; /* Hide all content by default */
+    padding: 20px;
+  background-color: transparent; /* Remove the background color */
+    color: #fff; /* Adjust text color as needed */
+    border: none; /* Remove any borders if not needed */
+}
+
+/* Display the active tab content */
+.tab-contents.active-tab {
+    display: block;
+}
+
+/* Optional: Clearfix for floated elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        width: 150px; /* Adjust width for smaller screens */
+    }
+
+    .sidebar nav ul li {
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+    }
+}
+#animated-text {
+    color: #ffe100; /* Yellow color */
+    font-weight: bold; /* Optional: makes it more prominent */
+}
+
+
+
+.achievements-title {
+    color: #fff; /* Dark color for contrast */
+    margin-bottom: 15px; /* Space between title and images */
+}
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows images to wrap onto the next line */
+    padding: 10px;
+}
+
+.achievement-img {
+    max-width: 200px; /* Set a maximum width for each image */
+    margin: 10px; /* Space around images */
+    display: inline-block; /* Display images inline */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds shadow for depth */
+}
+
+.achievements-section {
+    padding: 20px; /* Adjust padding if necessary */
+    margin: 20px auto; /* Center the section horizontally if needed */
+    max-width: 960px; /* Maximum width of the section */
+    background-color: transparent; /* Remove any background color */
+    box-shadow: none; /* Remove box shadow if it’s no longer needed */
+}
+
+.achievement-img {
+    margin: 10px; /* Space around images */
+    display: inline-block; /* Display images inline */
+    border: none; /* Remove borders if set */
+    background: none; /* Ensure no background is applied */
+}
+.sidebar-logo {
+    width: 100%; /* Make the logo fill the width of the sidebar */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image doesn't have any inline whitespace */
+    margin-bottom: 20px; /* Add some space below the image */
+}
+.tab-contents ul li span {
+    font-weight: bold; /* Makes the info bold */
+    color: #ffe100; /* Example color */
+}
+
+#header .header-text button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ffe100; /* Yellow background */
+    color: #020e1d; /* Dark text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#header .header-text button:hover {
+    background-color: #ccc; /* Light grey background on hover */
+}
+.profile-pic {
+    width: 250px;  /* Adjust size as necessary */
+    height: 250px;  /* Adjust size as necessary */
+    border-radius: 100%;  /* Circular shape */
+    object-fit: fill;  /* Ensures the image covers the space without distorting */
+    margin: 0px 0;  /* Space above and below the image */
+    border: 1px solid #fff;  /* Optional: adds a white border around the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /* Optional: adds subtle shadow for depth */
+}
+
+.header-text {
+    margin-top: 0;  /* Reduce top margin, adjust as necessary */
+    padding-top: 20px;  /* Reduce top padding, adjust as necessary */
+}
+.header-text {
+    position: relative;
+    top: -50px;  /* Move up by 50px; adjust the value as needed */
+}
