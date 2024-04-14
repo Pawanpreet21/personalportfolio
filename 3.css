@@ -194,13 +194,7 @@ body{
 }
 
 .work {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column; /* Ensures contents are laid out vertically */
-    align-items: center; /* Aligns children elements to the center horizontally */
-    text-align: center; /* Ensures text is centered */
+   
 }
 
 .work img {
