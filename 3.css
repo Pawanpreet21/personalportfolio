@@ -202,7 +202,7 @@ body{
 
 .work img {
     width: 100%;
-    
+    background: none;
     display: block;
     transition: transform 0.5s;
 }
