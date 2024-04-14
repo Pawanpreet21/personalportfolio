@@ -194,7 +194,10 @@ body{
 }
 
 .work {
-   
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Maintain rounded corners if desired */
+    background: transparent; /* Ensure no background is applied */
 }
 
 .work img {
