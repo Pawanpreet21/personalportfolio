@@ -1,5 +1,5 @@
 # Output
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045544.png
+(C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045544.png)
 
 
 C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045349.png
