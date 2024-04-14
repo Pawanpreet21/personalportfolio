@@ -208,22 +208,7 @@ body{
 }
 
 .layer {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ffe100);
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column; /* Aligns content vertically */
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically for aesthetics */
-    padding: 20px; /* Adds some padding inside the layer */
-    height: 100%; /* Makes it cover the entire work item */
-    opacity: 0; /* Initially hide it */
-    transition: opacity 0.5s; /* Smooth transition for hover effect */
-    text-align: center; /* Ensures text is centered */
+    
 }
 
 .layer h3, .layer p, .layer a {
