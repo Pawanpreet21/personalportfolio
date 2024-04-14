@@ -1,19 +1,33 @@
 # Output
-(C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045544.png)
+
+![Screenshot 2024-04-15 045544](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/9a1e8d38-b092-457a-b648-187b54e8618f)
 
 
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045349.png
 
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045421.png
-
-
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045435.png
+![Screenshot 2024-04-15 045349](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/25b84a23-c18f-41e2-bd89-eac32e94dce1)
 
 
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045447.png
 
 
-C:\Users\Pawanpreet Singh\OneDrive\Pictures\Screenshots\Screenshot 2024-04-15 045503.png
+![Screenshot 2024-04-15 045421](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/a96e2c27-d110-4d91-a044-dbfb3ef6f280)
+
+
+
+
+![Screenshot 2024-04-15 045435](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/c47596f8-1e09-48cb-9357-334df39ba9f0)
+
+
+
+
+
+![Screenshot 2024-04-15 045447](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/d3a071d7-1505-4d8a-9511-ad569f020deb)
+
+
+
+![Screenshot 2024-04-15 045503](https://github.com/Pawanpreet21/personalportfolio/assets/156650641/fa01fe2b-512e-4a7c-9a3a-8462877d14fa)
+
+
+
 
 
 > PERSONAL WEBSITE 
